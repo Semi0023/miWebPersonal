@@ -11,18 +11,16 @@
    
    header{
       display:flex;
-      font-size: 30px;
+      font-size: 20px;
       height: 70px;
       background-color:0;
       justify-content: space-between;
       align-items: center;
+      padding: 10px;
+   }
 
-    }
 
    
-     
-  
-
     .logo{
       display:flex;
       align-items: center;
@@ -33,10 +31,19 @@
       margin-right: 10px;
 
     }
-    .lis{
-      display:flex;
-      justify-content: right;
-      flex-direction: column-reverse;
+
+     a{
+      text-decoration: none;
+      color: black;
+     }
+    nav a{
+      font-weight: 600;
+      padding-right: 10px;
+      ;
+    }
+
+    nav a:hover{
+      color: white;
     }
 
     section{
@@ -69,19 +76,13 @@
         <img src="andrea.png" alt="Logo compañia" class="andrea-img">
         <a> Andrea Massó</a>
      </div>
-      <div class="lis">
-        <ul>
-          <li>
-            Sobre mi
-          </li>
-          <li>
-            Contacto
-          </li>
-          <li>
-            Portfolio
-          </li>
-        </ul>
-      </div>
+      <nav>
+        <a href="#" class="nav-link">Acerca de mi</a>
+        <a href="#" class="nav-link">Reanudar</a>
+        <a href="#" class="nav-link">Portafolio</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">Contacto</a>
+      </nav>
  </header>
      
     <section>
