@@ -31,26 +31,31 @@ img {
 }
 
 .nombre {
-  padding: 70px;
+  display:flex;
+  padding: 7px;
   border: 3px solid black;
-  margin: 150px;
+  margin: 15px;
   font-size: 18px;
   color: black;
 }
 
-h2,
-h3 {
+h2 {
+  
   text-align: center;
   font-size: 50px;
   color: black;
-  border: solid white;
+  border: solid 0;
 }
-table {
-  text-align: center;
-  font-size: 20px;
-  margin: 10px;
-  border: solid black;
+
+h3{
+  text-align: left;
+  font-size: 25px;
+  color: black;
+  border: solid 0;
 }
+
+
+
 
 .enlace {
   font-size: 20px;
