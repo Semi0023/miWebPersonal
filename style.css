@@ -1,9 +1,4 @@
-
-
-
-
 body {
-
   margin: 0 auto;
   background-color: rgb(191, 236, 191);
   padding: 0 20px 20px 20px;
@@ -20,6 +15,7 @@ h1 {
 p {
   font-size: 20px;
 }
+
 .nombre {
   font-size: 50px;
   color: white;
@@ -76,8 +72,7 @@ header{
 
 section{
 display: flex;
-gap:50px;
-margin:20px auto;
+margin: 40px auto;
 
 }
 
@@ -111,7 +106,8 @@ nav a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .yo{
@@ -151,22 +147,28 @@ button:hover{
   display: flex;
   justify-content: space-around;
   gap:20px;
-  
-
-  
 }
 
-.primera columna{
-  display: flex;
-  justify-content: space-between;
-  padding: 30px;
  
-}
+/* Seccion what I do */
+  .what-i-do {
+    flex-wrap: wrap;
+  }
 
-.segunda columna{
-display: flex;
-  justify-content: space-between;
-  padding: 30px;
-} 
- 
+  .what-i-do h2 {
+    margin: 0;
+  }
 
+  .segunda-seccion-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .segunda-seccion-text div {
+    flex: 1 1 45%;
+    min-width: 250px;
+  }
+/* Fin seccion whay I do */
