@@ -3,7 +3,7 @@
 
 
 body {
-  width: 1700px;
+
   margin: 0 auto;
   background-color: rgb(191, 236, 191);
   padding: 0 20px 20px 20px;
@@ -40,6 +40,7 @@ img {
 }
 
 h2 {
+  display: flex;
   
   text-align: center;
   font-size: 50px;
@@ -63,4 +64,109 @@ h3{
 
 
 
+header{
+  display:flex;
+  font-size: 20px;
+  height: 70px;
+  background-color:0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+
+section{
+display: flex;
+gap:50px;
+margin:20px auto;
+
+}
+
+
+.logo{
+  display:flex;
+  align-items: center;
+
+}
+.andrea-img{
+  height: 50px;
+  margin-right: 10px;
+
+}
+
+ a{
+  text-decoration: none;
+  color: black;
+ }
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+  ;
+}
+
+nav a:hover{
+  color: white;
+}
+
+.primer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.yo{
+ display:flex
+}
+
+
+.principal{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  max-width: 500px;
+
+
+}
+
+.apartado{
+ 
+  text-align: left;
+}
+
+button{
+  background-color: white;
+  border-radius:50px;
+  color:black;
+  border-color: blue;
+  padding: 10px 15px;
+}
+
+button:hover{
+  background-color: blue;
+  color:white;
+
+}
+.button-section{
+  display: flex;
+  justify-content: space-around;
+  gap:20px;
+  
+
+  
+}
+
+.primera columna{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+ 
+}
+
+.segunda columna{
+display: flex;
+  justify-content: space-between;
+  padding: 30px;
+} 
+ 
+
